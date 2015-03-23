@@ -1,0 +1,23 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Authentication": {
+    "Bucket": "beanstalk_bucket",
+    "Key": "mydockercfg"
+  },
+  "Image": {
+    "Name": "gfischer/docker_node_project",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "ContainerPort": "8080"
+    }
+  ],
+  "Volumes": [
+    {
+      "HostDirectory": "/var/app",
+      "ContainerDirectory": "/etc"
+    }
+  ],
+  "Logging": "/var/log"
+}

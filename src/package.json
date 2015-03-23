@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "name": "docker_node_project",
+  "author": "gfischer@adobe.com",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "*"
+  }
+}

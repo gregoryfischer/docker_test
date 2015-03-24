@@ -4,6 +4,10 @@
     "Bucket": "docker_bucket",
     "Key": ".dockercfg"
   },
+  "Image": {
+    "Name": "gregoryfischer/docker-test",
+    "Update": "true"
+  },
   "Ports": [
     {
       "ContainerPort": "8080"

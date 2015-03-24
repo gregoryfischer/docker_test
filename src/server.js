@@ -7,8 +7,8 @@ app.get('/', function (req, res) {
   res.send('Hello World!')
 });
 
-app.get('/other', function (req, res) {
-  res.send('Now on another static page...')
+app.get('/nam', function (req, res) {
+  res.send('Python Rocks!')
 });
 
 var server = app.listen(PORT, function () {

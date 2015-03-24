@@ -2,7 +2,7 @@
   "AWSEBDockerrunVersion": "1",
   "Authentication": {
     "Bucket": "docker_bucket",
-    "Key": "mydockercfg"
+    "Key": ".dockercfg"
   },
   "Ports": [
     {

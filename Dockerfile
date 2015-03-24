@@ -15,7 +15,8 @@ RUN mkdir -pv /tmp/nodejs \
     && echo `npm --version`
 
 COPY . /src
-RUN cd /src/src; npm install
+RUN cd /src/src
+CMD ["npm", "install"]
 RUN ls
 
 EXPOSE 8080

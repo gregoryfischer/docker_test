@@ -1,5 +1,4 @@
 FROM ubuntu:14.04.2
-MAINTAINER GFISCHER <gfischer@adobe.com>
 
 # Install utils
 RUN apt-get -y install wget zip gcc git
